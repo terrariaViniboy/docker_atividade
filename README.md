@@ -25,8 +25,14 @@ A aplicação consiste em uma página web simples que, ao ser acessada, retorna 
 
 A organização dos arquivos segue a estrutura abaixo:
 
-docker-flask-app/ │ ├── app.py # Código fonte da aplicação Flask ├── Dockerfile # Arquivo de configuração da imagem Docker ├── requirements.txt # Dependências do projeto (Flask) └── README.md # Documentação do projeto
-
+```text
+docker-flask-app/
+│
+├── app.py             # Código fonte principal da aplicação (Rota e lógica do Flask)
+├── Dockerfile         # Arquivo de configuração para construção da imagem Docker
+├── requirements.txt   # Lista de dependências do projeto (Bibliotecas Python)
+└── README.md          # Documentação do projeto
+```
 ---
 
 ## 🚀 Tecnologias Utilizadas
